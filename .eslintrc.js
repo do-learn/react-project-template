@@ -9,6 +9,7 @@ module.exports = {
   parserOptions: {
     project: "./tsconfig.json",
     sourceType: "module",
+    ecmaVersion: 2020,
     ecmaFeatures: {
       jsx: true,
     },
@@ -17,7 +18,7 @@ module.exports = {
     "prettier",
     "react",
     "@typescript-eslint",
-    "eslint-comments", // 对eslint-disable等注释进行规范
+    // "eslint-comments", // 对eslint-disable等注释进行规范
     "jest",
     "promise",
     "unicorn",
@@ -25,7 +26,7 @@ module.exports = {
   extends: [
     "airbnb-typescript",
     "plugin:@typescript-eslint/recommended",
-    "plugin:eslint-comments/recommended",
+    // "plugin:eslint-comments/recommended",
     "plugin:jest/recommended",
     "plugin:promise/recommended",
     "plugin:unicorn/recommended",
