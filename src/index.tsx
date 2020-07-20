@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDom from "react-dom";
-import HelloWorld from "@/components/HelloWorld";
+import App from "./App";
 import "./styles/index.css";
 
-ReactDom.render(<HelloWorld />, document.querySelector("#app"));
+ReactDom.render(<App />, document.querySelector("#app"));

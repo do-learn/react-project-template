@@ -1,4 +1,4 @@
-const Config = require("./config");
+const Config = require("./webpack.config");
 
 const config = Config("production");
 

@@ -1,6 +1,6 @@
 import React from "react";
 import logoZhImg from "../assets/headicon.png";
-import ToDo from "../ToDo";
+import ToDo from "./ToDo";
 
 const HelloWorld: React.FC = () => {
   return (
